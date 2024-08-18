@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:400,300italic,300,400italic);
+body,
+html {
+  margin: 0;
+  font-family: muli;
+  height: 100%;
+  padding: 0;
+  overflow-x:hidden;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.options {
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    margin-top:25px;
+    -webkit-box-pack:justify;
+    -webkit-justify-content:space-between;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
+  }
+  
+  
+  h1 {
+    letter-spacing: 0px;
+    letter-spacing: .02rem;
+    font-size: 48px;
+    font-size: 3rem;
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    color: #666;
+    font-size: 19px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
